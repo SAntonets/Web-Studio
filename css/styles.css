@@ -535,9 +535,6 @@ p {
   gap: 16px;
 }
 
-.footer-form-label {
-}
-
 .sbc-input {
   width: 264px;
   height: 40px;
@@ -558,8 +555,7 @@ p {
 }
 
 .footer-form-btn {
-  min-width: 165px;
-  height: 40px;
+  padding: 8px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -680,6 +676,15 @@ p {
     color: var(--OCEAN);
   }
 
+  .main-section-hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--GREY, rgba(46, 47, 66, 0.7)),
+        var(--GREY, rgba(46, 47, 66, 0.7))
+      ),
+      url("/images/hero-image-tab-1x.jpg");
+  }
+
   @media (min-resolution: 192dpi) {
     .main-section-hero {
       background-image: linear-gradient(
@@ -734,16 +739,22 @@ p {
 
   .footer-wraper {
     gap: 24px;
-    padding-left: 108px;
+    padding: 96px 108px;
     justify-content: flex-start;
+    width: 100%;
   }
 
   .footer-txt-wrapper {
-    flex-basis: calc((100% - 24px) / 2);
+    flex-direction: column;
+    width: calc((100% - 24px) / 2);
   }
 
   .footer-form-wrap {
     flex-direction: column;
+  }
+
+  .footer-form {
+    gap: 24px;
   }
 }
 
@@ -754,6 +765,15 @@ p {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .main-section-hero {
+    background-image: linear-gradient(
+        to bottom,
+        var(--GREY, rgba(46, 47, 66, 0.7)),
+        var(--GREY, rgba(46, 47, 66, 0.7))
+      ),
+      url("/images/hero-image-pc-1x.jpg");
   }
 
   @media (min-resolution: 192dpi) {
@@ -834,5 +854,25 @@ p {
 
   .portfolio-ithem {
     flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .footer-wraper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+  .footer-form-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .footer-txt-wrapper {
+    max-width: 264px;
+  }
+
+  .footer-sm-link {
+    align-items: center;
+    justify-content: center;
   }
 }
