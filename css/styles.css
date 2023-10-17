@@ -1067,7 +1067,7 @@ p {
         var(--GREY, rgba(46, 47, 66, 0.7)),
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
-      url("../images/hero-image-tab-1x.jpg");
+      url("../images/hero-image-mob-1x.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
