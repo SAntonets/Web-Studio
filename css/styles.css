@@ -1311,10 +1311,6 @@ p {
     flex-wrap: nowrap;
   }
 
-  .footer-txt-wrapper {
-    max-width: 264px;
-  }
-
   .footer-sm-link {
     align-items: center;
     justify-content: center;
