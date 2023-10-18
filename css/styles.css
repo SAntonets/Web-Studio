@@ -1052,7 +1052,7 @@ p {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -17px;
+    bottom: -28px;
     height: 4px;
     width: 100%;
     background-color: #404bbf;
@@ -1215,10 +1215,6 @@ p {
   .header {
     padding-top: 24px;
     padding-bottom: 24px;
-  }
-
-  .current::after {
-    bottom: -28px;
   }
 
   .adress-list {
