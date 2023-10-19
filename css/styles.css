@@ -618,6 +618,8 @@ p {
 .footer-txt {
   line-height: 1.5;
   color: var(--CLOUD);
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
@@ -1115,7 +1117,7 @@ p {
   }
 
   .slogan {
-    max-width: 44%;
+    max-width: 496px;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -1153,7 +1155,7 @@ p {
   }
 
   .footer-section {
-    padding: 96px 164px 96px 108px;
+    padding: 96px 92px;
   }
 
   .footer-wraper {
@@ -1165,6 +1167,10 @@ p {
   .footer-txt-wrapper {
     flex-direction: column;
     width: 264px;
+  }
+
+  .footer-sm-header {
+    text-align: left;
   }
 
   .footer-form-wrap {
@@ -1197,6 +1203,8 @@ p {
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
       url("../images/hero-image-pc-1x.jpg");
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -1226,17 +1234,18 @@ p {
     gap: 40px;
   }
 
+  .page-menu-contacts {
+    font-size: 16px;
+  }
+
   .main-section-hero {
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
   }
 
   .main-section-container {
     align-items: center;
-  }
-
-  .slogan {
-    width: 33%;
   }
 
   .order-servise-button {
@@ -1276,9 +1285,17 @@ p {
     width: calc((100% - 72px) / 4);
   }
 
+  .advantages-list-txt {
+    font-weight: 400;
+  }
+
   .our-team-section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .our-team-cards {
+    width: calc((100% - 72px) / 4);
   }
 
   .our-portfolio-section {
@@ -1300,11 +1317,17 @@ p {
   .footer-wraper {
     align-items: baseline;
     flex-wrap: nowrap;
+    gap: 0;
     justify-content: space-between;
+  }
+
+  .footer-txt-wrapper {
+    margin-right: 120px;
   }
 
   .footer-form-wrap {
     flex-wrap: nowrap;
+    margin-left: auto;
   }
 
   .footer-form {
